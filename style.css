@@ -1,0 +1,26 @@
+/* style.css */
+/* Ensure smooth scrolling for navigation */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Basic font styling, Tailwind takes over most of this */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom CSS for navigation link active state */
+/* This ensures the active link is underlined and indigo */
+.nav-link.active {
+    color: #4338CA; /* indigo-700 */
+    text-decoration: underline;
+}
+
+/* Base styles provided by Tailwind CSS CDN are already very comprehensive.
+   You would add custom styles here if Tailwind's utilities aren't enough.
+   For example:
+*/
+/* .custom-card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+} */
